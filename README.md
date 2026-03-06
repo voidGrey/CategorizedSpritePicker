@@ -1,4 +1,5 @@
 # 🛠️ Smart Sprite Picker for Unity
+UI Toolkit-based alternative to Unity's default Object Picker. Designed specifically for projects with complex folder structures it categorizes your assets into smart tabs and provides a much more intuitive browsing experience.
 
 ## ✨ Features
 * **📂 Hierarchical Tab System:** Automatically converts your folder structure into easy-to-navigate tabs. It keeps the full path (e.g., `Enemies/Boss/Portraits`) while staying organized.
