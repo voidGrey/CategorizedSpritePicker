@@ -9,7 +9,7 @@
 * **📂 Hierarchical Tab System:** Automatically converts your folder structure into easy-to-navigate tabs. It keeps the full path (e.g., `Enemies/Boss/Portraits`) while staying organized.
 * **🧠 Intelligent Breadcrumbs:** A stylized dropdown allows you to jump between main categories effortlessly.
 * **🔍 Global Search & "All" Mode:** Search across all subfolders or use the "All" category to see every sprite in the project at once.
-* **💾 State Persistence:** Remembers your last selected category, search query, and zoom level even after restarting Unity.
+* **💾 State Persistence:** Remembers your last selected category.
 
 ---
 
