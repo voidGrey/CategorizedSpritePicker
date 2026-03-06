@@ -17,10 +17,13 @@
 
 ### Main Interface
 
-![ScreenShot 1](CategorizedSprite/assets/images/Screenshot1.png)
+<p align="center">
+  <img src="CategorizedSprite/assets/images/ScreenShot1.png" width="800" alt="Main Interface">
+</p>
 
-![ScreenShot 2](CategorizedSprite/assets/images/Screenshot2.png)
-
+<p align="center">
+  <img src="CategorizedSprite/assets/images/ScreenShot2.png" width="800" alt="Flexible Layout">
+</p>
 *Large, wrapped category buttons and clear asset previews for high-speed browsing.*
 
 ---
