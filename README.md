@@ -19,7 +19,7 @@
 
 
 <p align="center">
-  <img src="assets/images/Screenshot1.png" width="800" alt="Main Interface">
+  <img src="CategorizedSprite/assets/images/Screenshot1.png" width="800" alt="Main Interface">
 </p>
 
 *Large, wrapped category buttons and clear asset previews for high-speed browsing.*
@@ -27,7 +27,7 @@
 ### Flexible Layout
 
 <p align="center">
-  <img src="assets/images/Screenshot2.png" width="800" alt="Flexible Layout">
+  <img src="CategorizedSprite/assets/images/Screenshot2.png" width="800" alt="Flexible Layout">
 </p>
 
 *The UI Toolkit-based design adapts to any window size and resolves overflow issues gracefully.*
@@ -46,7 +46,7 @@ public class MyComponent
 }
 ```
 
-![How To Use](assets/images/HowToUse.png)
+![How To Use](CategorizedSprite/assets/images/HowToUse.png)
 
 1. **Select a Root:** In the settings, define your `Base Path` (e.g., `Assets/Art/Sprites`).
 2. **Browse & Filter:** Use the top dropdown for main groups and the buttons below for specific sub-folders.
@@ -56,7 +56,7 @@ public class MyComponent
 
 ## ⚙️ Configuration
 
-![Settings](assets/images/Settings.png)
+![Settings](CategorizedSprite/assets/images/Settings.png)
 
 * **Base Path:** The starting directory for the tool.
 * **Ignore Levels:** Choose how many top-level folders to skip to keep your tabs relevant.
