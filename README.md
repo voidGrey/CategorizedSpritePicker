@@ -18,6 +18,11 @@ UI Toolkit-based alternative to Unity's default Object Picker. Designed specific
 <p align="center">
   <img src="CategorizedSprite/assets/images/ScreenShot2.png" width="800" alt="Flexible Layout">
 </p>
+
+<p align="center">
+  <img src="CategorizedSprite/assets/images/ScreenShot3.png" width="800" alt="Flexible Layout">
+</p>
+
 *Large, wrapped category buttons and clear asset previews for high-speed browsing.*
 
 ---
