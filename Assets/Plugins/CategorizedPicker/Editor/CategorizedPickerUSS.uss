@@ -1,0 +1,379 @@
+/** USS Properties For reference:
+align-content
+align-items
+align-self
+all
+aspect-ratio
+background-color
+background-image
+background-position
+background-position-x
+background-position-y
+background-repeat
+background-size
+border-bottom-color
+border-bottom-left-radius
+border-bottom-right-radius
+border-bottom-width
+border-color
+border-left-color
+border-left-width
+border-radius
+border-right-color
+border-right-width
+border-top-color
+border-top-left-radius
+border-top-right-radius
+border-top-width
+border-width
+bottom
+color
+cursor
+display
+filter
+flex
+flex-basis
+flex-direction
+flex-grow
+flex-shrink
+flex-wrap
+font-size
+height
+justify-content
+left
+letter-spacing
+margin
+margin-bottom
+margin-left
+margin-right
+margin-top
+max-height
+max-width
+min-height
+min-width
+opacity
+overflow
+padding
+padding-bottom
+padding-left
+padding-right
+padding-top
+position
+right
+rotate
+scale
+text-overflow
+text-shadow
+top
+transform-origin
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+translate
+-unity-background-image-tint-color
+-unity-background-scale-mode
+-unity-editor-text-rendering-mode
+-unity-font
+-unity-font-definition
+-unity-font-style
+-unity-material
+-unity-overflow-clip-box
+-unity-paragraph-spacing
+-unity-slice-bottom
+-unity-slice-left
+-unity-slice-right
+-unity-slice-scale
+-unity-slice-top
+-unity-slice-type
+-unity-text-align
+-unity-text-auto-size
+-unity-text-generator
+-unity-text-outline
+-unity-text-outline-color
+-unity-text-outline-width
+-unity-text-overflow-position
+visibility
+white-space
+width
+word-spacing
+*/
+.picker-root{
+    flex-direction: column;
+    background-color: rgb(13,13,13);
+}
+.picker-top-bar{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    border-left-width: 4px;
+    border-left-color: rgb(78, 55, 16);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255,255,255,0.1);
+    padding-left: 8px;
+    padding-right: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 32px;
+    flex-shrink: 0;
+}
+.picker-main-category-dropdown {
+    margin: 2px 4px;
+    flex-shrink: 0;
+}
+/* Input Field (Box) */
+.picker-main-category-dropdown .unity-base-popup-field__input {
+    background-color: rgb(28, 28, 28);
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+    border-radius: 4px;
+    padding: 2px 6px;
+    min-height: 24px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.15s;
+}
+
+/* Hover State */
+.picker-main-category-dropdown .unity-base-popup-field__input:hover {
+    background-color: rgb(38, 38, 38);
+    border-color: rgb(161, 110, 41);
+}
+
+/* Label Style */
+.picker-main-category-dropdown .unity-base-popup-field__text {
+    color: rgb(224, 224, 224);
+    font-size: 12px;
+    -unity-font-style: bold;
+    padding-left: 2px;
+}
+
+/* Arrow Customization */
+.picker-main-category-dropdown .unity-base-popup-field__arrow {
+    -unity-background-image-tint-color: rgb(140, 140, 140);
+    width: 12px;
+    height: 12px;
+}
+
+/* Focus State */
+.picker-main-category-dropdown:focus .unity-base-popup-field__input {
+    border-color: rgb(199, 140, 41);
+    border-width: 1px;
+}
+.picker-search-field {
+    margin: 2px 4px;
+    height: 24px;
+    flex-grow: 1; /* Arama çubuğu genellikle boşluğu doldurur */
+}
+/* Field area (Box) */
+.picker-search-field .unity-search-field-base__input {
+    background-color: rgb(28, 28, 28);
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+    border-radius: 4px;
+    padding: 2px 6px;
+    min-height: 24px;
+    color: rgb(224, 224, 224);
+    font-size: 12px;
+    transition-property: border-color, background-color;
+    transition-duration: 0.15s;
+}
+
+/* Hover state */
+.picker-search-field .unity-search-field-base__input:hover {
+    background-color: rgb(38, 38, 38);
+    border-color: rgb(161, 110, 41); /* Senin bronz rengin */
+}
+
+/* Focus state */
+.picker-search-field .unity-search-field-base__input:focus {
+    border-color: rgb(199, 140, 41); /* Daha parlak bronz */
+    background-color: rgb(32, 32, 32);
+}
+
+/* icon */
+.picker-search-field .unity-search-field-base__search-button {
+    -unity-background-image-tint-color: rgb(140, 140, 140);
+    margin-right: 2px;
+}
+
+/* Cancel Button */
+.picker-search-field .unity-search-field-base__cancel-button {
+    -unity-background-image-tint-color: rgb(140, 140, 140);
+}
+
+/* Cancel Button Hover */
+.picker-search-field .unity-search-field-base__cancel-button:hover {
+    -unity-background-image-tint-color: rgb(199, 140, 41);
+}
+
+/* Placeholder */
+.picker-search-field .unity-base-text-field__input {
+    -unity-font-style: normal; /* Yazarken çok kalın olmaması daha okunaklı olur */
+}
+
+.picker-settings-btn{
+    width: 24px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 4px;
+    border-width : 0px;
+
+}
+
+.picker-settings-panel {
+    background-color: rgb(23, 23, 23);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(56, 56, 56);
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-shrink: 0;
+}
+
+.picker-settings-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.picker-settings-label {
+    color: rgb(140, 140, 140);
+    font-size: 11px;
+    min-width: 110px;
+    -unity-text-align: middle-left;
+}
+
+/* Sub-Category Strip */
+.picker-subcategory-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 6px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(56, 56, 56);
+    background-color: rgb(28, 28, 28);
+    flex-shrink: 0;
+}
+
+/* Sub-Category Button */
+.picker-subcat-btn {
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 8px; 
+    margin: 3px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+    background-color: rgb(26, 26, 26);
+}
+
+.picker-subcat-btn.is-all {
+    padding-left: 10px;
+}
+
+/* Active State for SubCat Btn */
+.picker-subcat-btn.active {
+    background-color: rgb(18, 31, 51);
+    border-color: rgb(38, 71, 122);
+}
+
+.picker-subcat-btn Label {
+    font-size: 11px;
+    color: rgb(140, 140, 140);
+    -unity-text-align: middle-left;
+}
+
+.picker-subcat-btn.active Label {
+    color: rgb(89, 166, 242);
+}
+
+/* Grid Scroll View */
+.picker-grid-scrollview {
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: rgb(33, 33, 33);
+}
+
+.picker-grid-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+/* Card Item */
+.picker-card {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 38, 38);
+    padding: 6px 4px 4px 4px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(56, 56, 56);
+}
+
+.picker-card:hover {
+    background-color: rgb(26, 46, 71);
+    border-color: rgb(64, 128, 204);
+}
+
+.picker-card Label {
+    -unity-text-align: middle-center;
+    font-size: 9px;
+    color: rgb(140, 140, 140);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+}
+
+.picker-card:hover Label {
+    color: rgb(224, 224, 224);
+}
+
+/* Bottom Bar */
+.picker-bottom-bar {
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    border-top-width: 1px;
+    border-top-color: rgb(56, 56, 56);
+    padding: 3px 8px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.picker-version-text {
+    color: rgb(140, 140, 140);
+    font-size: 10px;
+    -unity-text-align: middle-left;
+    margin-right: 5px;
+}
+
+/* Selected card */
+.picker-card--selected {
+    background-color: rgb(20, 45, 80);
+    border-color: rgb(90, 160, 255);
+}
+
+.picker-card--selected Label {
+    color: rgb(130, 190, 255);
+}
+
+/* Empty state */
+.picker-empty-label {
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    -unity-font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
